@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:black;
+    
+}
+.nav-link {
+   color: white;
+
+   
+}
+.dropdown-menu{
+    color: white;
+
+}
+.collapse ul {
+    gap: 20px;
+}
+.dropdown-menu{
+    background-color:orangered ;
+}
+.nav-link:hover {
+    color: orangered;
+}
+.container-img{
+    height:90px ;
+}
+/* .container-img2{
+    height:     90px; */
+
+.appy {
+    height: 950px;
+}
+.content{
+    font-style:"merivaregular";
+    font-size: 20px;
+    padding: 140px;
+    font-weight: 500;
+    height: 950px;
+    
+}
+.col-md-4 a{
+   text-decoration:none ;
+   color: black;
+}
+@media (min-width:1100px) and (max-width: 1320px) {
+
+.content{
+    padding: 120px;
+}
+}
+@media (min-width:990px) and (max-width: 1200px) {
+
+    .content{
+        padding: 80px;
+    }
+    .appy img{
+        width: 432px;
+    }
+    }
+
+    
+@media (min-width:400px) and (max-width: 560px) {
+
+    .content{
+        padding: 50px;
+    }
+    .appy img{
+        width: 400px;
+    }
+    }
+    @media (min-width:300px) and (max-width: 400px) {
+
+        .content{
+            padding: 20px;
+        }
+        .appy img{
+             width: 200px; 
+             height: 300px;
+        }
+        }
+        
+    
+
